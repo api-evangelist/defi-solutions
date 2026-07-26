@@ -1,8 +1,26 @@
 aid: defi-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/defi-solutions.png
 name: defi SOLUTIONS
-description: 'defi SOLUTIONS is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'defi SOLUTIONS is an auto and consumer lending technology company founded in 2012 and
+  headquartered in Westlake, Texas. It provides cloud-native, API-enabled loan origination software
+  (defi ORIGINATIONS), a servicing platform for account, collateral, and default management, digital
+  borrower acquisition and self-service portals, and outsourced (BPO) managed servicing. The platform
+  serves captive auto finance companies, banks, credit unions, and consumer finance companies, and
+  ships 135+ pre-built partner integrations (Dealertrack, RouteOne, TransUnion, Equifax, LexisNexis,
+  Experian, Black Book, J.D. Power, Zest AI, and more). APIs move borrower and loan data between
+  origination and servicing but are exposed to enterprise customers and integration partners rather
+  than through a public developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/defi-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Lending
+- Loan Origination
+- Loan Servicing
+- Auto Finance
+- Financial Services
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/defi-solutions-domain-security.yml
 - type: Website
   url: https://defisolutions.com/
+- type: Blog
+  url: https://defisolutions.com/insight/
+- type: BlogRSS
+  url: https://defisolutions.com/insight/feed/
+- type: Support
+  url: https://help.defisolutions.com/
+- type: Login
+  url: https://login.defisolutions.com/
+- type: PrivacyPolicy
+  url: https://defisolutions.com/privacy-policy/
+- type: TermsOfService
+  url: https://defisolutions.com/terms-of-service/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
