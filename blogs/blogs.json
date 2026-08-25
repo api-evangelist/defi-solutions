@@ -2,24 +2,27 @@
   "repo": "defi-solutions",
   "feeds": [
     {
-      "source": "https://defisolutions.com/feed/",
-      "error": "HTTPError"
+      "source": "https://defisolutions.com/comments/feed/",
+      "feed_url": "https://defisolutions.com/comments/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://defisolutions.com/",
-      "feed_url": "https://defisolutions.com/comments/feed/",
+      "feed_url": "https://defisolutions.com/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
     },
     {
       "source": "https://defisolutions.com/insight/",
-      "feed_url": "https://defisolutions.com/comments/feed/",
+      "feed_url": "https://defisolutions.com/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 13,
-  "fetched": "2026-08-15T12:22:01Z"
+  "post_count": 14,
+  "fetched": "2026-08-22T20:20:02Z"
 }
